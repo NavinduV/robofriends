@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Violetta Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Violetta Regular'), url('../fonts/Violetta-AL0em.woff') format('woff');
+    }
+
+h1 {
+	font-family: Violetta Regular;
+	font-size: 70px;
+	font-weight: 200;
+	color: #0ccac3;
+}
+
+@font-face {
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Circe'), url('../fonts/CRC55.woff') format('woff');
+    }
+
+input {
+	font-family: Circe;
+	height: 40px;
+	width: 220px;
+    border-radius: 18px 30px 30px 18px;
+}
+
+input:focus {
+    outline: none;
+}
+
+h2 {
+	font-family: Circe;
+}
+
+@font-face {
+    font-family: 'Akwe Pro Regular Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Akwe Pro Regular Italic'), url('../fonts/ROHH  Akwe Pro Regular Italic.woff') format('woff');
+    }
+    
+p {
+	font-family: Akwe Pro Regular Italic;
+}
+
+.more {
+    text-align: center;
+    padding-top: 150px;
+    font-size: 27px;
+    color: rgb(4, 205, 155)
+}
+
+.forScroll {
+    overflow-y: scroll;
+    height: 420px;
+}
